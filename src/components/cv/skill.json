@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_cv_skills",
+  "info": {
+    "displayName": "Skill",
+    "icon": "star",
+    "description": "A single skill or competency"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

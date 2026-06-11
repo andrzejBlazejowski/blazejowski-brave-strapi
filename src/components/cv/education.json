@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_cv_educations",
+  "info": {
+    "displayName": "Education",
+    "icon": "graduationCap",
+    "description": "An education entry"
+  },
+  "options": {},
+  "attributes": {
+    "institution": {
+      "type": "string",
+      "required": true
+    },
+    "degree": {
+      "type": "string",
+      "required": true
+    },
+    "startDate": {
+      "type": "string",
+      "required": true
+    },
+    "endDate": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

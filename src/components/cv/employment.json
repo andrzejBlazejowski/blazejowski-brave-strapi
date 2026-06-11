@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_cv_employments",
+  "info": {
+    "displayName": "Employment",
+    "icon": "briefcase",
+    "description": "A period of employment at a company"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "uid",
+      "targetField": "company",
+      "required": true
+    },
+    "company": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "string",
+      "required": true
+    },
+    "endDate": {
+      "type": "string",
+      "required": true
+    },
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cv.project"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_cv_technologies",
+  "info": {
+    "displayName": "Technology",
+    "icon": "code",
+    "description": "A technology or tool used on a project"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

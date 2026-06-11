@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_cv_highlights",
+  "info": {
+    "displayName": "Highlight",
+    "icon": "bulletList",
+    "description": "A single project or role highlight bullet point"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

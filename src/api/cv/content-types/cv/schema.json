@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "cvs",
+  "info": {
+    "singularName": "cv",
+    "pluralName": "cvs",
+    "displayName": "CV",
+    "description": "Personal CV content — profile, experience, education, languages, and skills"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "profile": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cv.profile",
+      "required": true
+    },
+    "employments": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cv.employment"
+    },
+    "education": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cv.education"
+    },
+    "languages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cv.language"
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cv.skill"
+    }
+  }
+}

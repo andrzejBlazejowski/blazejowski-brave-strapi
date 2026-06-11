@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_cv_projects",
+  "info": {
+    "displayName": "Project",
+    "icon": "folder",
+    "description": "A project within an employment period"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "summary": {
+      "type": "text",
+      "required": true
+    },
+    "highlights": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cv.highlight"
+    },
+    "technologies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cv.technology"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

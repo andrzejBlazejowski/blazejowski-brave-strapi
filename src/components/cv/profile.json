@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_cv_profiles",
+  "info": {
+    "displayName": "Profile",
+    "icon": "user",
+    "description": "Personal profile and contact information"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "summary": {
+      "type": "text",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "phone": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "githubUrl": {
+      "type": "string"
+    },
+    "linkedinUrl": {
+      "type": "string"
+    }
+  }
+}
